@@ -15,9 +15,12 @@ class pptxAutomator:
     def createFolderPath(self):
         return self.mainFolder + self.folder + self.name
 
-    def createPptx(self):
+    def createFolder(self):
         os.mkdir(self.createFolderPath())
         os.mkdir(self.createFolderPath()+'\\img')
+
+    def createPptx(self):
+        self.createFolder()
         open(self.createFilePath(), 'a').close()
         print('Ur folder is succesfuly created ;)')
 
