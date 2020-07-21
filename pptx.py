@@ -3,8 +3,8 @@ import os
 
 
 class pptxAutomator:
-    mainFolder = 'C:\\Users\\smj51\\OneDrive\\Рабочий стол\\presentations\\'
-    default = 'C:\\Users\\smj51\\OneDrive\\Рабочий стол\\presentations\\all\\'
+    mainFolder = 'F:\\win\\save\\presentations\\'
+    default = 'F:\\win\\save\\presentations\\all'
     name = sys.argv[1]
     folder = sys.argv[2] + '\\'
 
